@@ -31,7 +31,6 @@ jobs:
     - name: Build database
       run: ./build.sh
     - name: Set up Cloud Run
-      if: github.event_name == 'workflow_dispatch' || steps.decide_variables.outputs.latest != steps.decide_variables.outputs.deployed
       uses: google-github-actions/setup-gcloud@master
       with:
         version: '275.0.0'
