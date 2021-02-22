@@ -7,3 +7,7 @@ plugins:
     load_orgs: CAVaccineInventory
 allow:
   gh_orgs: CAVaccineInventory
+  gh_login:
+  - simonw
+  - patio11
+  - obra
