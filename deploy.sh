@@ -1,6 +1,7 @@
 #/bin/sh
 datasette publish cloudrun vaccinateca.db \
     --metadata metadata.yml \
+    --template-dir templates \
     --service vaccinateca \
     --install datasette-auth-github \
     --install datasette-cluster-map \
