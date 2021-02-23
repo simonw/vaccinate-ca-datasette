@@ -1,6 +1,6 @@
 # vaccinate-ca-datasette
 
-Publishing data from https://www.vaccinateca.com/ to a Datasette instance
+Publishing data from https://www.vaccinateca.com/ to a Datasette instance at https://vaccinateca.datasette.io
 
 This Datasette instance exposes data from these JSON files:
 
