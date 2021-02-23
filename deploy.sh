@@ -7,4 +7,5 @@ datasette publish cloudrun vaccinateca.db \
     --install datasette-cluster-map \
     --install datasette-vega \
     --install datasette-graphql \
-    --install datasette-jellyfish
+    --install datasette-jellyfish \
+    --extra-options "--setting sql_time_limit_ms 5000"
