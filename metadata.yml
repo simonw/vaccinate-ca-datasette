@@ -1,5 +1,7 @@
 title: VaccinateCA in Datasette
 source: www.vaccinateca.com
 source_url: https://www.vaccinateca.com/
+about: vaccinate-ca-datasette
+about_url: https://github.com/simonw/vaccinate-ca-datasette
 description_html: |-
   <a href="/vaccinateca/locations?_facet=Affiliation&_facet=Latest+report+yes%3F&Latest+report+yes%3F=1&_facet_array=Availability+Info">Latest places that reported yes, on a map</a>
