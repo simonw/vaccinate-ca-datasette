@@ -3,13 +3,3 @@ source: www.vaccinateca.com
 source_url: https://www.vaccinateca.com/
 description_html: |-
   <a href="/vaccinateca/locations?_facet=Affiliation&_facet=Latest+report+yes%3F&Latest+report+yes%3F=1&_facet_array=Availability+Info">Latest places that reported yes, on a map</a>
-plugins:
-  datasette-auth-github:
-    client_id: 98a01f2a9fad62f5f5c7
-    load_orgs: CAVaccineInventory
-allow:
-  gh_orgs: CAVaccineInventory
-  gh_login:
-  - simonw
-  - patio11
-  - obra
