@@ -1,2 +1,3 @@
 sqlite-utils
 datasette
+flatten-single-item-arrays
